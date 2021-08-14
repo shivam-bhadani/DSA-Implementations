@@ -39,6 +39,7 @@ public:
     {
         if(isEmpty()) {
             cout << "Queue Underflow" << endl;
+            return;
         }
         front = (front+1)%cap;
         size--;
