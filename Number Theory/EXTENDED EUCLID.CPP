@@ -1,3 +1,10 @@
+struct triplet
+{
+    int x;
+    int y;
+    int gcd;
+};
+
 triplet extendedEuclid(int a, int b)
 {
     if(b==0)
