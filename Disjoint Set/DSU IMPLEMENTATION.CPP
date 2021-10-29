@@ -16,7 +16,7 @@ public:
             return node;
         return parent[node] = findPar(parent[node]);
     }
-    void union(int u, int v)
+    void unionBySize(int u, int v)
     {
         int pu = parent[u];
         int pv = parent[v];
